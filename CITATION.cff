@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology in your research, please cite it as below."
+authors:
+  - family-names: "A Citizen of the Republic of Korea"
+    orcid: "https://orcid.org/0009-0004-3627-6997"
+title: "K-PROTOCOL: Universal Conformal Framework for Precision Metrology"
+version: 1.0.0
+doi: 10.5281/zenodo.21768477
+date-released: 2026-08
+url: "https://github.com/CitizenKorea/k-protocol-framework"
