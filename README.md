@@ -1,2 +1,90 @@
-# k-protocol-framework
-A deterministic software framework for a priori conformal scale alignment in precision metrology, resolving $10^{-18}$ relativistic metric scale drifts across disjoint gravitational potentials.
+# K-PROTOCOL: Universal Conformal Framework for Precision Metrology
+
+<p align="left">
+  <a href="https://orcid.org/0009-0004-3627-6997"><img src="https://img.shields.io/badge/ORCID-0009--0004--3627--6997-A6CE39?logo=orcid&logoColor=white" alt="ORCID"></a>
+  <a href="https://doi.org/10.5281/zenodo.21768477"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.21768477-blue?logo=zenodo&logoColor=white" alt="DOI"></a>
+  <img src="https://img.shields.io/badge/Status-Patent_Pending-red?style=flat-square" alt="Patent Pending">
+</p>
+
+> **"Breaking the 10^-18 Metrological Wall of Despair"**  
+> A deterministic software architecture that replaces legacy post-hoc statistical filtering with a priori conformal scale alignment.
+
+---
+
+## The Metrological Blind Spot (The Problem)
+
+Modern precision metrology relies on a "Triple Lock" framework: enforcing UTC globally and fixing the standard speed of light ($c_0$) as a rigid constant on a flat Cartesian grid ($g_{ij}=\delta_{ij}$).
+
+While computationally convenient, this enforces a mathematical contradiction when fusing multi-point datasets across disjoint gravitational potentials ($\Phi$). The legacy SI system inadvertently forces relativistic spacetime distortions to be absorbed by spatial coordinates.
+
+When tracking stations attempt to merge data using traditional Kalman filters or Least-Squares regression, the geometric scale mismatches are merged with environmental noise, completely **obfuscating physical causality**.
+
+---
+
+## The K-PROTOCOL (The Solution)
+
+The K-PROTOCOL does not rely on ad-hoc statistical overfitting. Instead, it extracts the exact non-linear principles of General Relativity and injects them directly into the **Data Ingestion Layer**.
+
+By mapping the localized gravitational potential ($\Phi_i \approx g_i \cdot h_i$) as an operational proxy, the core engine executes a single scalar transformation:
+
+$$c_{coord} = c_0 \sqrt{\frac{1+\frac{2\Phi}{c_0^2}}{1-\frac{2\Phi}{c_0^2}}}$$
+
+This conformal rescaling effectively eliminates the geometric metric error term ($\hat{K}=0$) *before* baseline processing begins.
+
+---
+
+## Universal 4-Stage Architecture
+
+1. **Phase 1: Ingestion** — Binds raw Time-of-Flight (ToF) / Phase data with local $\Phi$.
+2. **Phase 2: Conformal Rescaling** — Neutralizes metric distortion ($\hat{K}=0$) via the Math Engine.
+3. **Phase 3: Single-Pass Algebraic Solver** — Bypasses heavy filtering loops, converging to a deterministic Bounding Circle.
+4. **Phase 4: Residual Decoupling** — Isolates stochastic hardware noise ($N_{stochastic}$) from structural environmental modulations ($S_{env}$).
+
+---
+
+## Quick Start & Demo Execution
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/CitizenKorea/k-protocol-framework.git](https://github.com/CitizenKorea/k-protocol-framework.git)
+cd k-protocol-framework
+
+# 2. Run the core pipeline demo
+python k_protocol_framework.py
+
+# 3. Expected Terminal Output
+=====================================================================================
+ K-PROTOCOL DEMO: Overcoming the 10^-18 Metrological 'Wall of Despair' 
+=====================================================================================
+
+[STEP 1] Data Ingestion (Raw ToF & Metadata via Ingest Layer)
+ -> Node: KRISS_Daejeon   | Alt:       70.0m | Phi(Proxy): 686.4655
+ -> Node: NIST_Boulder    | Alt:     1655.0m | Phi(Proxy): 16230.0058
+ -> Node: GNSS_Sat_01     | Alt: 35786000.0m | Phi(Proxy): 350940788.0700
+
+[STEP 2] A Priori Conformal Rescaling (The K-PROTOCOL Core Engine)
+-------------------------------------------------------------------------------------
+ Target Node : KRISS_Daejeon (Optical_Clock)
+    - Legacy SI Assumption Error : 1.725341e-13 meters
+    - K-PROTOCOL Action          : Rescaled ToF based on localized potential.
+    - Geometric Metric Status    : [ K = 0.0 ] (Completely Neutralized)
+-------------------------------------------------------------------------------------
+ Target Node : NIST_Boulder (Optical_Clock)
+    - Legacy SI Assumption Error : 4.079234e-12 meters
+    - K-PROTOCOL Action          : Rescaled ToF based on localized potential.
+    - Geometric Metric Status    : [ K = 0.0 ] (Completely Neutralized)
+-------------------------------------------------------------------------------------
+
+[STEP 3] Inverse Environmental Tracking (Turning Noise into Telemetry)
+    By eliminating structural metric errors (K=0), we achieve deterministic causality.
+
+    [+] Total Input Residual  : 0.125 ns
+    [-] Hardware Noise Floor  : 0.050 ns (Stochastic Boundary)
+    [=] Pure Environment Sig  : 0.075 ns -> [MAPPED TO: Tropospheric / Solar Wind Shifts]
+
+=====================================================================================
+ CONCLUSION: 
+ Legacy statistical smoothing (Kalman Filters) obfuscates causality.
+ K-PROTOCOL's a priori scalar transformation is a strict prerequisite for 
+ next-gen mega-constellations, 6G, and interplanetary baselines.
+=====================================================================================
