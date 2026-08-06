@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+
+# Data files (Exclude large raw data files, keep schema guides only)
+*.csv
+*.rinex
+*.sp3
+*.clk
