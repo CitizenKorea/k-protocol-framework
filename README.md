@@ -1,7 +1,7 @@
 # K-PROTOCOL: Universal Conformal Framework for Precision Metrology
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--3627--6997-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3627-6997)
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21768477-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21768477)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21768477-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21846407)
 ![Patent Pending](https://img.shields.io/badge/Status-Patent_Pending-red?style=flat-square)
 
 > **"Breaking the $10^{-18}$ Metrological Wall of Despair"**  
