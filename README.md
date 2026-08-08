@@ -88,3 +88,13 @@ python k_protocol_framework.py
  K-PROTOCOL's a priori scalar transformation is a strict prerequisite for 
  next-gen mega-constellations, 6G, and interplanetary baselines.
 =====================================================================================
+
+---
+
+## 🧪 Empirical Validation Suites (`validation/`)
+
+The `validation/` directory provides complete, reproducible empirical verification pipelines for K-PROTOCOL across different observational scales:
+
+* **`validation/01_igs_real_data/`**: Global multi-lateration processing engine using international IGS tracking station networks and precise orbit/clock files (SP3/CLK).
+* **`validation/02_abc_framework/`**: Theoretical & numerical A-B-C metric scaling framework generating the publication-ready PDF report (`K_PROTOCOL_Empirical_Report.pdf`).
+* **`validation/03_hawaii_local_baseline/`**: Empirical proof across dynamic Mauna Kea elevation differentials ($\Delta h \approx 3,750\text{ m}$), demonstrating L1 carrier-phase noise reduction and zero-residual loop closure.
