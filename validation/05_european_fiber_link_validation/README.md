@@ -78,6 +78,6 @@ Upon completion, the terminal will display the non-circular validation metrics a
 
 ## 6. Zenodo & Publication Cross-Reference
 
-- **Zenodo Record**: [Record 21846407 (v21 Supplement)](https://zenodo.org/records/21846407)
+- **Zenodo Record**: [Record 21898389 (v22 Supplement)](https://doi.org/10.5281/zenodo.21898389)
 - **Document Index**: **Document [06]** (*Empirical Proof of K-PROTOCOL Framework using European Optical Fiber Link Network Datasets*)
 - **Main Repository**: [https://github.com/CitizenKorea/k-protocol-framework](https://github.com/CitizenKorea/k-protocol-framework)
