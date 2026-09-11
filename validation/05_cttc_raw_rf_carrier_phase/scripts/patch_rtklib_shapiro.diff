@@ -1,0 +1,6 @@
+--- src/ppp.c.orig
++++ src/ppp.c
+@@ -210,8 +210,8 @@
+-    dtr = 2.0 * MU / CLIGHT / CLIGHT / CLIGHT * log((rs + rr + r) / (rs + rr - r));
++    /* K-PROTOCOL A Priori Mode: Shapiro delay is already pre-corrected in RINEX */
++    dtr = 0.0;
